@@ -10,11 +10,15 @@
   --background-color:#f7f7f7;
 }
 
+body{
+  background-color: #f0f0f0;
+}
 .container {
   max-width: 1000px;
   min-height: 100vh;
   margin: 30px auto;
   border-radius: 20px;
+  background-color:#fff;
 }
 
 h1, h2, h3, p {
@@ -71,12 +75,13 @@ input:focus {
   width: 200px;
   background-color: white;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
 }
 
 .card-image {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .card-body {
@@ -90,8 +95,9 @@ input:focus {
 
 a {
   background-color: var(--first-color);
-  color: inherit;
+  color: #a1a1a1a9;
   padding: 10px;
+  font-weight: 700;
   border-radius: 10px;
   text-decoration: none;
 }
